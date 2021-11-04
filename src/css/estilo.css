@@ -140,15 +140,19 @@ footer h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20pt;
 }
-footer p{
+footer a{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 20px;
 }
 /*Aquí organizo las columnas*/
 .columna1{
     width: 20%;
     display: inline-block;
-    margin-left: 4cm;
+    margin-left: 3cm;
     margin-bottom: 50px;
 }
 hr{
